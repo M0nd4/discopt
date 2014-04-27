@@ -1,0 +1,14 @@
+# Method: BasicAnneal
+BasicAnneal
+
+# Parameters
+# BasicAnneal: double temperature, double cooling rate, double maximum tour length
+100 0.005 70000000
+
+# Data file
+#../data/tsp_51_1
+../data/tsp_33810_1
+
+# Cached solution
+#./solutions/basic_anneal_51.data
+./solutions/rev_trans_anneal_33810.data
