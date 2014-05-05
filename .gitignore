@@ -18,5 +18,6 @@ screenname/
 /*/solutions
 /*/*/solutions
 *.pyc
+blah/
 
 !.gitignore

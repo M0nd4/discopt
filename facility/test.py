@@ -103,7 +103,7 @@ def solve_it(input_data):
     result_status = solver.Solve()
     print "WallTime:", solver.WallTime()
     print "Status:",result_status
-    ##assert (result_status == pywraplp.Solver.OPTIMAL) or (result_status == pywraplp.Solver.FEASIBLE)
+    # assert (result_status == pywraplp.Solver.OPTIMAL) or (result_status == pywraplp.Solver.FEASIBLE)
 
 
     solution = [-1]*len(customers)
